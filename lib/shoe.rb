@@ -8,6 +8,8 @@ class Shoe
     @brand = brand
   end
  
+  BRANDS = []
+ 
  def cobble 
    @condition = "new"
    puts "Your shoe is as good as new!"
